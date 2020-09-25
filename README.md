@@ -1,4 +1,7 @@
-# Reflections journal project - (Phase 3) Combining your original HTML/CSS/JavaScript content and C# classes to create a fullstack version of your Reflections Journal
+# Reflections journal project - (Phase 3) 
+
+Leveraging your original HTML/CSS/JavaScript content and C# classes to create a fullstack MVC version of your Reflections Journal
+
 > Please jump to the bottom of this README file for general information and project guidelines
 
 ## Phase 3: Fullstack refactor with backend Persistence of Journal Entries using the MVC pattern
