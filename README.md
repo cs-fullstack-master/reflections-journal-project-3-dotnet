@@ -7,24 +7,24 @@ Leveraging your original HTML/CSS/JavaScript content and C# classes to create a 
 ## Phase 3: Fullstack refactor with backend Persistence of Journal Entries using the MVC pattern
 For Phase 3 of this project you will develop the following:
 - Leverage your original reflections journal code to create a CRUD Reflections Journal application using .NET MVC
-- Implement the necessary endpoints/actions to replace all of your features from your phase 1 journal project and add full CRUD+1 capability
-- Leverage/refactor C# classes from phase 2 to use in your MVC web app 
+- Implement the necessary endpoints/actions to replace all of your features from your phase 1/2 journal projects to add full CRUD+1 capability
 
 ### Requirements:
 `Wire Frames`
-   - Take some time at start to do some pre-thinking and design. At *minimum* you should have a basic wire frame drawn up (*ADD A PICTURE OF DESIGN TO REPO*)
+   - Take some time at start to do some pre-thinking and design BEFORE you code. At *minimum* you should have a basic wire frame drawn up (*ADD A PICTURE OF DESIGN TO REPO*). You should go back and update your initial wire frames should your page design change based on testing and/or user feedback.
 
 `MVC Version of Reflections Journal`
   - Create a `CRUD+1` .NET MVC web application for reflection journal entries
-  - The default landing page should list reflection entries for the logged in user
+  - The default landing page should list reflection entries only for the logged in user or all entries if logged in user is in the `admin` user role
   - Create an entity model schema for your reflection entries based on earlier Reflections Journal projects 
     - Enhance your model(s) and add validation to forms as necessary to ensure the following:
       - An `id` field is added to be used as a key (auto-populated)
       - All fields are required
       - Only a `confidence level` of `Low`, `Medium`, or `High` will be accepted when submitting a form to add or edit a journal entry
       - Any other annotations to enhance error reporting or otherwise improve the end user experience
+  - Update navigation bar to match the new functionality
 - `Authentication/Authorization`
-  - Only a logged in user can access any page within the application
+  - Only a logged in user can access **any** page within the application
   - The application should support an `admin` and an `user` role
   - A logged in user should **only** be able to view/edit/delete the journal entries that they created (unless in `admin` role)
   
