@@ -1,4 +1,4 @@
-# Reflections journal project - (Phase 3) 
+# Reflections Journal Project C#/.NET MVC - (Phase 3) 
 
 Leveraging your original HTML/CSS/JavaScript content and C# classes to create a fullstack MVC version of your Reflections Journal
 
